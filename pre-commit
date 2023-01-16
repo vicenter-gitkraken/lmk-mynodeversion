@@ -1,0 +1,5 @@
+#!/bin/bash
+
+node_version=$(node -v)
+echo "Node.js version is $node_version"
+exit 1
