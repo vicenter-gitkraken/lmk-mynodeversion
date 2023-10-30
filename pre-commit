@@ -2,4 +2,6 @@
 
 node_version=$(node -v)
 echo "Node.js version is $node_version"
+echo "NPM version is $(npm -v)"
+echo "NPX version is $(npx -v)"
 exit 1
